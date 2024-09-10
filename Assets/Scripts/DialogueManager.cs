@@ -4,55 +4,89 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using Unity.VisualScripting;
 
 public class DialogueManager : MonoBehaviour
 {
-    public TMP_Text nameText;
-    public TMP_Text dialogueText;
-    public Sprite charaSprite;
+    [SerializeField]
+    TMP_Text nameText;
+
+    [SerializeField]
+    TMP_Text dialogueText;
+
+    [SerializeField]
+    Sprite charaSprite;
+
+    [SerializeField]
+    Dialogue dialogueSO;
+
+    [SerializeField]
+    private float _dialogueLoad;
 
     public UnityEvent OnDialogueEnd;
 
-    //private Queue<string> names;
-    private Queue<string> sentences;
+    private Queue<DialogueInfo> _lines;
+
+    private bool _completeCurrentSentence = false;
+    private bool _isTyping = false;
+
+    private void Awake()
+    {
+        _lines = new Queue<DialogueInfo>();
+    }
     // Start is called before the first frame update
     void Start()
     {
-        sentences = new Queue<string>();
+        StartCoroutine(WaitForLoad());
     }
-    public void StartDialogue(Dialogue dialogue)
+    private IEnumerator WaitForLoad()
     {
-        nameText.text = dialogue.name;
-        charaSprite = dialogue.sprite;
+        dialogueText.text = ""; 
+        nameText.text = ""; // clears speaker name
 
-        //foreach (string name in dialogue.names)
-        //{
-        //    names.Enqueue(name);
-        //}
+        yield return new WaitForSeconds(_dialogueLoad); // wait time for readability or dramatic effect
 
-        sentences.Clear();
+        StartDialogue(dialogueSO.dialogueLines);
+    }
+    public void StartDialogue(List<DialogueInfo> aboutDialogue)
+    {
+        _lines.Clear();
 
-        foreach (string sentence in dialogue.sentences)
+        //dialogue contains a list of dialogue, then you are essentially iterating over that list
+        foreach(DialogueInfo dialogueInfo in dialogueSO.dialogueLines)
         {
-            sentences.Enqueue(sentence);
+            _lines.Enqueue(dialogueInfo);
         }
 
         DisplayNextSentence();
     }
     public void DisplayNextSentence()
     {
-        if (sentences.Count == 0)
+        if (_isTyping == true) 
         {
+            _completeCurrentSentence = true;
+            _isTyping=false;
+            return;
+        }
+        if (_lines.Count == 0) 
+        { 
             EndDialogue();
             return;
         }
 
-        string sentence = sentences.Dequeue();
-        //string name = names.Dequeue();
-        dialogueText.text = sentence;
+        DialogueInfo currentLine = _lines.Dequeue();
+        nameText.text = currentLine.charaName;
+
+        StopAllCoroutines();
+
+        //StartCoroutine(TypeSentence(currentLine));
     }
+    //private IEnumerator TypeSentence(DialogueInfo dialogueInfo)
+
     public void EndDialogue()
     {
         OnDialogueEnd.Invoke();
     }
 }
+
+

@@ -8,6 +8,6 @@ public class StoryTrigger : MonoBehaviour
 
     public void TriggerDialogue()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        //FindObjectOfType<DialogueManager>().StartDialogue(dialogueSO);
     }
 }
