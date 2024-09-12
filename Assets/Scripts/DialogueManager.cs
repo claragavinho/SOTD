@@ -30,6 +30,18 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     private float _typingSpeed = 0.05f;
 
+    [SerializeField]
+    private bool _canChoose;
+
+    [SerializeField]
+    private Canvas _choiceCanvas;
+
+    [SerializeField]
+    Button[] _choiceButtons;
+
+    [SerializeField]
+    Dialogue[] _choicesSO; 
+
     //public UnityEvent OnDialogueEnd;
 
     private Queue<DialogueInfo> _lines;
@@ -40,6 +52,7 @@ public class DialogueManager : MonoBehaviour
     private void Awake()
     {
         _lines = new Queue<DialogueInfo>();
+        _choiceCanvas.enabled = false;
     }
     // Start is called before the first frame update
     void Start()
@@ -67,6 +80,40 @@ public class DialogueManager : MonoBehaviour
 
         DisplayNextSentence();
     }
+    public void StartChoice1()
+    {
+        _lines.Clear();
+
+        //dialogue contains a list of dialogue, then you are essentially iterating over that list
+        foreach (DialogueInfo dialogueInfo in _choicesSO[0].dialogueLines)
+        {
+            _lines.Enqueue(dialogueInfo);
+        }
+
+        DisplayNextSentence();
+    }
+    public void StartChoice2()
+    {
+        _lines.Clear();
+
+        foreach (DialogueInfo dialogueInfo in _choicesSO[1].dialogueLines)
+        {
+            _lines.Enqueue(dialogueInfo);
+        }
+
+        DisplayNextSentence();
+    }
+    public void StartChoice3()
+    {
+        _lines.Clear();
+
+        foreach (DialogueInfo dialogueInfo in _choicesSO[2].dialogueLines)
+        {
+            _lines.Enqueue(dialogueInfo);
+        }
+
+        DisplayNextSentence();
+    } // sean please dont yell at me i promise i'll fix this later
     public void DisplayNextSentence()
     {
         if (_isTyping == true) 
@@ -77,6 +124,10 @@ public class DialogueManager : MonoBehaviour
         }
         if (_lines.Count == 0) 
         { 
+            if (_canChoose == true) 
+            { 
+                _choiceCanvas.enabled = true;
+            }
             EndDialogue();
             return;
         }
@@ -117,11 +168,22 @@ public class DialogueManager : MonoBehaviour
 
     public void EndDialogue()
     {
-        if (_nextScene != "")
+        if (dialogueSO.canChoose == true)
         {
-            SceneManager.LoadScene(sceneName: _nextScene);
+
         }
+        else if (_choicesSO[_choicesSO.Length].canChoose == false)
+        {
+            SceneManager.LoadScene(_nextScene);
+        }
+        /*
+        foreach ()
+        if (dialogueSO.nextSceneName[] != "")
+        {
+            SceneManager.LoadScene(dialogueSO.nextSceneName);
+        }*/
     }
+
 }
 
 
