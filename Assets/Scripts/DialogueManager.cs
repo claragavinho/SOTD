@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.Events;
 using UnityEngine.UI;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -15,15 +16,21 @@ public class DialogueManager : MonoBehaviour
     TMP_Text dialogueText;
 
     [SerializeField]
-    Sprite charaSprite;
+    Image charaSprite;
 
     [SerializeField]
     Dialogue dialogueSO;
 
     [SerializeField]
-    private float _dialogueLoad;
+    private float _dialogueLoad = 0.1f;
 
-    public UnityEvent OnDialogueEnd;
+    [SerializeField]
+    private string _nextScene;
+
+    [SerializeField]
+    private float _typingSpeed = 0.05f;
+
+    //public UnityEvent OnDialogueEnd;
 
     private Queue<DialogueInfo> _lines;
 
@@ -79,13 +86,41 @@ public class DialogueManager : MonoBehaviour
 
         StopAllCoroutines();
 
-        //StartCoroutine(TypeSentence(currentLine));
+        StartCoroutine(TypeSentence(currentLine));
     }
-    //private IEnumerator TypeSentence(DialogueInfo dialogueInfo)
+    
+    IEnumerator TypeSentence(DialogueInfo dialogueLine)
+    {
+        dialogueText.text = dialogueLine.sentence;
+        string fullSentence = dialogueText.text;
+        dialogueText.maxVisibleCharacters = 0;
+        dialogueText.text = fullSentence;
+        int sentenceCharLength = fullSentence.Length;
+        _isTyping = true;
+        _completeCurrentSentence = false;
+
+        while (dialogueText.maxVisibleCharacters < sentenceCharLength) 
+        { 
+            if (_completeCurrentSentence)
+            {
+                dialogueText.maxVisibleCharacters = sentenceCharLength;
+                break;
+            }
+
+            dialogueText.maxVisibleCharacters++; //increases visible characters one by one
+            yield return new WaitForSecondsRealtime(_typingSpeed);
+        }
+
+        _isTyping = false;
+        _completeCurrentSentence = false;
+    }
 
     public void EndDialogue()
     {
-        OnDialogueEnd.Invoke();
+        if (_nextScene != "")
+        {
+            SceneManager.LoadScene(sceneName: _nextScene);
+        }
     }
 }
 

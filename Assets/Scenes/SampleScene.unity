@@ -718,10 +718,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 1695380224}
   dialogueText: {fileID: 938235059}
-  charaSprite: {fileID: 0}
-  OnDialogueEnd:
-    m_PersistentCalls:
-      m_Calls: []
+  charaSprite: {fileID: 1445867031}
+  dialogueSO: {fileID: 11400000, guid: 73db27d31e53d9a4fb87010d2fb87a36, type: 2}
+  _dialogueLoad: 0.1
+  _nextScene: Scene2
+  _typingSpeed: 0.05
 --- !u!4 &609780987
 Transform:
   m_ObjectHideFlags: 0
@@ -1458,7 +1459,7 @@ GameObject:
   - component: {fileID: 1445867032}
   - component: {fileID: 1445867031}
   m_Layer: 5
-  m_Name: GuestSprite
+  m_Name: SpriteLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
