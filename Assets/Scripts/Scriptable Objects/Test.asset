@@ -19,4 +19,4 @@ MonoBehaviour:
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
     sentence: YASSSS
-  canChoose: 0
+  canChoose: 1

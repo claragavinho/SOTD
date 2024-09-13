@@ -170,7 +170,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (dialogueSO.canChoose == true)
         {
-
+            _choiceCanvas.enabled = true;
         }
         else if (_choicesSO[_choicesSO.Length].canChoose == false)
         {

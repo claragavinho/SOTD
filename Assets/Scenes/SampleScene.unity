@@ -1520,7 +1520,7 @@ MonoBehaviour:
   _nextScene: Scene2
   _typingSpeed: 0.05
   _canChoose: 0
-  _choiceCanvas: {fileID: 0}
+  _choiceCanvas: {fileID: 798896582}
   _choiceButtons: []
   _choicesSO:
   - {fileID: 11400000, guid: b81ba854a6b83dd4ab403a3a42cd1d7c, type: 2}
@@ -1700,7 +1700,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 623952699}
-  m_CullTransparentMesh: 1
+  m_CullTransparentMesh: 0
 --- !u!1 &695197607
 GameObject:
   m_ObjectHideFlags: 0
@@ -1856,7 +1856,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &798896583
 RectTransform:
