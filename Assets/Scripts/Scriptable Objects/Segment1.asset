@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fef2eaf04299b245a9777fd5e174b2c, type: 3}
+  m_Name: Segment1
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - sprite: {fileID: 0}
+    charaName: Robin Campbell
+    sentence: Good evening, everyone! This is your host Robin Campbell speaking and
+      you'll be in my care for the next hour.
+  - sprite: {fileID: 0}
+    charaName: Robin Campbell
+    sentence: Don't worry, don't worry, I promise you're in good hands!
+  - sprite: {fileID: 0}
+    charaName: Robin Campbell
+    sentence: '... well, as good as possible, considering the spooky things we''re
+      doing here. '
+  - sprite: {fileID: 0}
+    charaName: Robin Campbell
+    sentence: 'But I''m sure you''re all as excited as I am to meet our first guest. '
+  - sprite: {fileID: 0}
+    charaName: Robin Campbell
+    sentence: 'Welcome to Speak of the Devil, the talk show where we interview the
+      internet''s most beloved cryptids and urban legends! '
+  - sprite: {fileID: 0}
+    charaName: Robin Campbell
+    sentence: We're here to learn more about their lives while trying to answer your
+      doubts about their existence.
+  canChoose: 1

@@ -1515,7 +1515,7 @@ MonoBehaviour:
   nameText: {fileID: 1695380224}
   dialogueText: {fileID: 938235059}
   charaSprite: {fileID: 1445867031}
-  dialogueSO: {fileID: 11400000, guid: bb58ba0dfad8aa843b863f2afc1e89f6, type: 2}
+  dialogueSO: {fileID: 11400000, guid: 33c93ada8bc94eb479ee9758774ad7a3, type: 2}
   _dialogueLoad: 0.1
   _nextScene: Scene2
   _typingSpeed: 0.05
