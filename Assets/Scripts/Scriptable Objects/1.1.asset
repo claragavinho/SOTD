@@ -20,17 +20,17 @@ MonoBehaviour:
     charaName: Robin Campbell
     sentence: Certainly you have a huge kill count in your hands, and everyone would
       love to know exactly how much that is
-  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+  - sprite: {fileID: 21300000, guid: e966d286c58028b4f89d794a3d577676, type: 3}
     charaName: The Babadook
     sentence: ...
-  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+  - sprite: {fileID: 21300000, guid: e966d286c58028b4f89d794a3d577676, type: 3}
     charaName: The Babadook
     sentence: Maybe we should start with something else...?
-  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+  - sprite: {fileID: 21300000, guid: e966d286c58028b4f89d794a3d577676, type: 3}
     charaName: The Babadook
     sentence: I do not appreciate having my existence pinned down to what is said
       about me.
-  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+  - sprite: {fileID: 21300000, guid: e966d286c58028b4f89d794a3d577676, type: 3}
     charaName: The Babadook
     sentence: Especially when it is not true.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
@@ -40,7 +40,7 @@ MonoBehaviour:
     charaName: Robin Campbell
     sentence: That's very underwhelming, Mr Babadook. We were all expecting the truth...
       oh well, keep your secrets.
-  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+  - sprite: {fileID: 21300000, guid: e966d286c58028b4f89d794a3d577676, type: 3}
     charaName: The Babadook
     sentence: I am being hone-
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}

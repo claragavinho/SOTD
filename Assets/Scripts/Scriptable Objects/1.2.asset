@@ -16,7 +16,7 @@ MonoBehaviour:
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
     sentence: 'Let''s cut to the chase: are you gay?'
-  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
     charaName: The Babadook
     sentence: ... I'm sorry, what?
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
@@ -27,13 +27,13 @@ MonoBehaviour:
     charaName: Robin Campbell
     sentence: There's been a lot of speculation about your sexuality, specifically
       when it comes to your relationship with Pennywise, the infamous clown.
-  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
     charaName: The Babadook
     sentence: 'Maybe we should talk about something more interesting? '
-  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
     charaName: The Babadook
     sentence: I am sure my sexuality isn't as entertaining as my life story.
-  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
     charaName: The Babadook
     sentence: I suppose it's time for a break.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
