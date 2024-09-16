@@ -195,6 +195,10 @@ public class DialogueManager : MonoBehaviour
         _isTyping = false;
         _completeCurrentSentence = false;
     }
+    public void EndDialogue()
+    {
+        SceneManager.LoadScene(_nextScene);
+    }
 
     //public void EndDialogue()
     //{
