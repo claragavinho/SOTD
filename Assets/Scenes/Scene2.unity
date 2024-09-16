@@ -3204,6 +3204,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1695380224}
     - target: {fileID: 2865663032510143406, guid: 484c95c00bd8aa440ac928628216d786, type: 3}
+      propertyPath: _nextScene
+      value: Scene3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2865663032510143406, guid: 484c95c00bd8aa440ac928628216d786, type: 3}
+      propertyPath: dialogueSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 19843cab7dc7d8f4d934dbf04bcf4700, type: 2}
+    - target: {fileID: 2865663032510143406, guid: 484c95c00bd8aa440ac928628216d786, type: 3}
       propertyPath: charaSprite
       value: 
       objectReference: {fileID: 1445867031}

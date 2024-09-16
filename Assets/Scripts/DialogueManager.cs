@@ -30,8 +30,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     private float _typingSpeed = 0.05f;
 
-    [SerializeField]
-    private bool _canChoose;
+    //[SerializeField]
+    //private bool _canChoose;
 
     [SerializeField]
     private Canvas _choiceCanvas;
@@ -48,6 +48,7 @@ public class DialogueManager : MonoBehaviour
 
     private bool _completeCurrentSentence = false;
     private bool _isTyping = false;
+    private bool _canSwitchScenes = false;
 
     private void Awake()
     {
@@ -92,7 +93,7 @@ public class DialogueManager : MonoBehaviour
             _lines.Enqueue(dialogueInfo);
         }
 
-        DisplayNextSentence();
+        ChoicesNextSentence();
     }
     public void StartChoice2()
     {
@@ -105,7 +106,7 @@ public class DialogueManager : MonoBehaviour
             _lines.Enqueue(dialogueInfo);
         }
 
-        DisplayNextSentence();
+        ChoicesNextSentence();
     }
     public void StartChoice3()
     {
@@ -118,7 +119,7 @@ public class DialogueManager : MonoBehaviour
             _lines.Enqueue(dialogueInfo);
         }
 
-        DisplayNextSentence();
+        ChoicesNextSentence();
     } // sean please dont yell at me i promise i'll fix this later
     public void DisplayNextSentence()
     {
@@ -129,12 +130,10 @@ public class DialogueManager : MonoBehaviour
             return;
         }
         if (_lines.Count == 0) 
-        { 
-            if (_canChoose == true) 
-            { 
-                _choiceCanvas.enabled = true;
-            }
-            EndDialogue();
+        {
+            _choiceCanvas.enabled = true;
+            _canSwitchScenes = true;
+            //EndDialogue();
             return;
         }
 
@@ -146,7 +145,31 @@ public class DialogueManager : MonoBehaviour
 
         StartCoroutine(TypeSentence(currentLine));
     }
-    
+
+    public void ChoicesNextSentence()
+    {
+        if (_isTyping == true)
+        {
+            _completeCurrentSentence = true;
+            _isTyping = false;
+            return;
+        }
+        if (_lines.Count == 0 && _canSwitchScenes)
+        {
+            SceneManager.LoadScene(_nextScene);
+            _choiceCanvas.enabled = false;
+            return;
+        }
+
+        DialogueInfo currentLine = _lines.Dequeue();
+        nameText.text = currentLine.charaName;
+        charaSprite.GetComponent<Image>().sprite = currentLine.sprite;
+
+        StopAllCoroutines();
+
+        StartCoroutine(TypeSentence(currentLine));
+    }
+
     IEnumerator TypeSentence(DialogueInfo dialogueLine)
     {
         dialogueText.text = dialogueLine.sentence;
@@ -173,23 +196,25 @@ public class DialogueManager : MonoBehaviour
         _completeCurrentSentence = false;
     }
 
-    public void EndDialogue()
-    {
-        if (dialogueSO.canChoose == true)
-        {
-            _choiceCanvas.enabled = true;
-        }
-        else if (_choicesSO[_choicesSO.Length].canChoose == false)
-        {
-            SceneManager.LoadScene(_nextScene);
-        }
-        /*
-        foreach ()
-        if (dialogueSO.nextSceneName[] != "")
-        {
-            SceneManager.LoadScene(dialogueSO.nextSceneName);
-        }*/
-    }
+    //public void EndDialogue()
+    //{
+    //    if (dialogueSO.canChoose == true)
+    //    {
+    //        _choiceCanvas.enabled = true;
+    //    }
+
+    //    else if (_choicesSO[0].canChoose == false)
+    //    {
+    //        SceneManager.LoadScene(_nextScene);
+    //    }
+
+    //    /*
+    //    foreach ()
+    //    if (dialogueSO.nextSceneName[] != "")
+    //    {
+    //        SceneManager.LoadScene(dialogueSO.nextSceneName);
+    //    }*/
+    //}
 
 }
 
