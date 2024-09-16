@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Segment1
   m_EditorClassIdentifier: 
   dialogueLines:
-  - sprite: {fileID: 0}
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
     sentence: Good evening, everyone! This is your host Robin Campbell speaking and
       you'll be in my care for the next hour.

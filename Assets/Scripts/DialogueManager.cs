@@ -134,6 +134,7 @@ public class DialogueManager : MonoBehaviour
 
         DialogueInfo currentLine = _lines.Dequeue();
         nameText.text = currentLine.charaName;
+        charaSprite.GetComponent<Image>().sprite = currentLine.sprite;
 
         StopAllCoroutines();
 
