@@ -82,6 +82,8 @@ public class DialogueManager : MonoBehaviour
     }
     public void StartChoice1()
     {
+        _choiceCanvas.enabled = false;
+
         _lines.Clear();
 
         //dialogue contains a list of dialogue, then you are essentially iterating over that list
@@ -94,6 +96,8 @@ public class DialogueManager : MonoBehaviour
     }
     public void StartChoice2()
     {
+        _choiceCanvas.enabled = false;
+
         _lines.Clear();
 
         foreach (DialogueInfo dialogueInfo in _choicesSO[1].dialogueLines)
@@ -105,6 +109,8 @@ public class DialogueManager : MonoBehaviour
     }
     public void StartChoice3()
     {
+        _choiceCanvas.enabled = false;
+
         _lines.Clear();
 
         foreach (DialogueInfo dialogueInfo in _choicesSO[2].dialogueLines)

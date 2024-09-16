@@ -12,5 +12,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fef2eaf04299b245a9777fd5e174b2c, type: 3}
   m_Name: 1.3
   m_EditorClassIdentifier: 
-  dialogueLines: []
-  nextScenes: []
+  dialogueLines:
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    sentence: 'Let''s start with something that I assume most of us would like to
+      know, then. '
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    sentence: How did you get here?
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    sentence: Uh... I can travel through the shadows, so -
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    sentence: Sorry, that's on me! What I meant was, how did you get your status
+      as a cryptid?
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    sentence: Oh, I apologize for the misunderstanding.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    sentence: My mother used to read this bedtime story for me when I was younger.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    sentence: She thought I would get over it eventually, as I grew up, but I never
+      did.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    sentence: Something in that book was too important to me and I could not find
+      the will to let go.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    sentence: 'I got so obsessed with the book that, one day, I found myself being
+      absorbed by it. '
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    sentence: A family got ahold of that book, somehow. It was just a mother and
+      her son.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    sentence: 'So I decided to treat them like roommates, but they weren''t very
+      cooperative. '
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    sentence: Sometimes I tried telling the mom about how her son was playing games
+      on his phone instead of falling asleep, but she started screaming as soon as
+      I showed myself.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    sentence: That is when I realized humans are too dramatic for their own good.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    sentence: I'm sure no one here expected such a heartfelt story. Thanks for sharing
+      that with us, it can't have been easy to deal with all of that.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    sentence: We'll be back after the break!
+  canChoose: 0
