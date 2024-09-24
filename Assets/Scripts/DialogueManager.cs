@@ -30,6 +30,9 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     private float _typingSpeed = 0.05f;
 
+    [SerializeField]
+    Button _nextButton;
+
     //[SerializeField]
     //private bool _canChoose;
 
@@ -83,13 +86,14 @@ public class DialogueManager : MonoBehaviour
     }
     public void StartChoice(int choiceRef)
     {
+        _nextButton.enabled = true;
         _choiceCanvas.enabled = false;
         _lines.Clear();
         foreach (DialogueInfo dialogueInfo in _choicesSO[choiceRef].dialogueLines)
         {
             _lines.Enqueue(dialogueInfo);
         }
-        ChoicesNextSentence();
+        DisplayNextSentence();
     }
     
     public void DisplayNextSentence()
@@ -100,32 +104,15 @@ public class DialogueManager : MonoBehaviour
             _isTyping=false;
             return;
         }
-        if (_lines.Count == 0) 
+        if (_lines.Count == 0 && _canSwitchScenes == false) 
         {
             _choiceCanvas.enabled = true;
             _canSwitchScenes = true;
+            _nextButton.enabled = false;
             //EndDialogue();
             return;
         }
-
-        DialogueInfo currentLine = _lines.Dequeue();
-        nameText.text = currentLine.charaName;
-        charaSprite.GetComponent<Image>().sprite = currentLine.sprite;
-
-        StopAllCoroutines();
-
-        StartCoroutine(TypeSentence(currentLine));
-    }
-
-    public void ChoicesNextSentence()
-    {
-        if (_isTyping == true)
-        {
-            _completeCurrentSentence = true;
-            _isTyping = false;
-            return;
-        }
-        if (_lines.Count == 0 && _canSwitchScenes)
+        else if (_lines.Count == 0 && _canSwitchScenes)
         {
             SceneManager.LoadScene(_nextScene);
             _choiceCanvas.enabled = false;

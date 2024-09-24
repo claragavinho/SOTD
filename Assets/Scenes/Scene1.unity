@@ -4738,6 +4738,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1695380224}
     - target: {fileID: 2865663032510143406, guid: 484c95c00bd8aa440ac928628216d786, type: 3}
+      propertyPath: _nextButton
+      value: 
+      objectReference: {fileID: 1147979357}
+    - target: {fileID: 2865663032510143406, guid: 484c95c00bd8aa440ac928628216d786, type: 3}
       propertyPath: charaSprite
       value: 
       objectReference: {fileID: 1445867031}
