@@ -19,6 +19,9 @@ public class DialogueInfo
     public Sprite sprite;
     public string charaName;
 
+    public AudioClip typing;
+    public AudioClip audienceFeedback;
+
     [TextArea(3, 10)]
     public string sentence;
 }

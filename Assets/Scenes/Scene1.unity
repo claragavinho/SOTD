@@ -1571,13 +1571,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _choiceSO: {fileID: 11400000, guid: b81ba854a6b83dd4ab403a3a42cd1d7c, type: 2}
+  _choiceRef: 0
   StartChoiceDialogue:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 609780986}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: StartChoice1
-        m_Mode: 1
+        m_MethodName: StartChoice
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1632,7 +1633,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 845466973}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: MakeUncomfortable
+        m_MethodName: MakeComfortable
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1644,8 +1645,8 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 609780986}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: StartChoice1
-        m_Mode: 1
+        m_MethodName: StartChoice
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1882,13 +1883,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _choiceSO: {fileID: 11400000, guid: 57d902e393dca2e4dafcd85f2d73ba6a, type: 2}
+  _choiceRef: 2
   StartChoiceDialogue:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 609780986}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: StartChoice3
-        m_Mode: 1
+        m_MethodName: StartChoice
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1955,12 +1957,12 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 609780986}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: StartChoice3
-        m_Mode: 1
+        m_MethodName: StartChoice
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3026,13 +3028,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _choiceSO: {fileID: 11400000, guid: 0109cad6d8b03bf4da08d725424ba706, type: 2}
+  _choiceRef: 1
   StartChoiceDialogue:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 609780986}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: StartChoice2
-        m_Mode: 1
+        m_MethodName: StartChoice
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3087,12 +3090,12 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 609780986}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: StartChoice2
-        m_Mode: 1
+        m_MethodName: StartChoice
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

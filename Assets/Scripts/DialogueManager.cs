@@ -81,46 +81,17 @@ public class DialogueManager : MonoBehaviour
 
         DisplayNextSentence();
     }
-    public void StartChoice1()
+    public void StartChoice(int choiceRef)
     {
         _choiceCanvas.enabled = false;
-
         _lines.Clear();
-
-        //dialogue contains a list of dialogue, then you are essentially iterating over that list
-        foreach (DialogueInfo dialogueInfo in _choicesSO[0].dialogueLines)
+        foreach (DialogueInfo dialogueInfo in _choicesSO[choiceRef].dialogueLines)
         {
             _lines.Enqueue(dialogueInfo);
         }
-
         ChoicesNextSentence();
     }
-    public void StartChoice2()
-    {
-        _choiceCanvas.enabled = false;
-
-        _lines.Clear();
-
-        foreach (DialogueInfo dialogueInfo in _choicesSO[1].dialogueLines)
-        {
-            _lines.Enqueue(dialogueInfo);
-        }
-
-        ChoicesNextSentence();
-    }
-    public void StartChoice3()
-    {
-        _choiceCanvas.enabled = false;
-
-        _lines.Clear();
-
-        foreach (DialogueInfo dialogueInfo in _choicesSO[2].dialogueLines)
-        {
-            _lines.Enqueue(dialogueInfo);
-        }
-
-        ChoicesNextSentence();
-    } // sean please dont yell at me i promise i'll fix this later
+    
     public void DisplayNextSentence()
     {
         if (_isTyping == true) 
