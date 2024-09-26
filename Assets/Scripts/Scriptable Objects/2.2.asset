@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fef2eaf04299b245a9777fd5e174b2c, type: 3}
+  m_Name: 2.2
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: We're well aware of the image the media built for you as a cryptid.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: However, I'm convinced there is more to it than what we see.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: You wouldn't be so concerned about what people say about you otherwise,
+      and I say this as a compliment.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: You're trying to show the real you here, isn't that right?
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Yes, Mr Campbell. That is my goal.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: And it's something very honorable. Remarkable, really!
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: 'Isn''t that right, guys? '
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Thank you, that means a lot.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: We'll do whatever we can to show your true colors in today's show.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Why don't you tell us about some common misconceptions regarding yourself?
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: What do you mean?
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Like rumours that came out about you or anything at all you'd like
+      to talk about!
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: 'In that case... '
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: First of all, I'd like to talk about how humans think I prefer to go
+      out at night to prey on the weak.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: That isn't true.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: The reason I go out during the night is that I do not deal very well
+      with sunlight.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: So I go out during the night to avoid any sunburns.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: That makes a lot of sense! It's only natural that you wouldn't feel
+      comfortable underneath the sun.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Another thing I would like to mention is that I cannot make anyone
+      depressed.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: My image has been linked do sadness and despair, but I have nothing
+      to do with it!
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Maybe you should seek psychological help before blaming everything
+      on me.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Well, of course! It's not like you can make suffer with mental illnesses.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Thank you for your honesty, Mr Babadook. I'm sure we all see you with
+      new eyes.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: The pleasure is all mine.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: I would be more than happy to clear up any more doubts in the future.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Perfect! Now, I think it's time for a break.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: We'll be right back!
+  canChoose: 0

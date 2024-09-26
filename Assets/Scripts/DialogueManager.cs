@@ -33,25 +33,26 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     Button _nextButton;
 
-    //[SerializeField]
-    //private bool _canChoose;
-
     [SerializeField]
     private Canvas _choiceCanvas;
 
     [SerializeField]
-    Button[] _choiceButtons;
+    Dialogue[] _choicesSO;
+
+    [SerializeField] 
+    AudioSource typingSource;
 
     [SerializeField]
-    Dialogue[] _choicesSO; 
-
-    //public UnityEvent OnDialogueEnd;
+    AudioSource VFXSource;
 
     private Queue<DialogueInfo> _lines;
 
     private bool _completeCurrentSentence = false;
     private bool _isTyping = false;
     private bool _canSwitchScenes = false;
+
+    private AudioClip typingCurrent;
+    private AudioClip VFXcurrent;
 
     private void Awake()
     {
@@ -102,7 +103,12 @@ public class DialogueManager : MonoBehaviour
         {
             _completeCurrentSentence = true;
             _isTyping=false;
+            PlayTyping();
             return;
+        }
+        else 
+        { 
+            PlayVFX();
         }
         if (_lines.Count == 0 && _canSwitchScenes == false) 
         {
@@ -122,6 +128,9 @@ public class DialogueManager : MonoBehaviour
         DialogueInfo currentLine = _lines.Dequeue();
         nameText.text = currentLine.charaName;
         charaSprite.GetComponent<Image>().sprite = currentLine.sprite;
+        typingCurrent = currentLine.typing;
+        VFXcurrent = currentLine.audienceFeedback;
+        
 
         StopAllCoroutines();
 
@@ -153,31 +162,16 @@ public class DialogueManager : MonoBehaviour
         _isTyping = false;
         _completeCurrentSentence = false;
     }
-    public void EndDialogue()
+    public void PlayTyping()
     {
-        SceneManager.LoadScene(_nextScene);
+        typingSource.clip = typingCurrent;
+        typingSource.Play();
     }
-
-    //public void EndDialogue()
-    //{
-    //    if (dialogueSO.canChoose == true)
-    //    {
-    //        _choiceCanvas.enabled = true;
-    //    }
-
-    //    else if (_choicesSO[0].canChoose == false)
-    //    {
-    //        SceneManager.LoadScene(_nextScene);
-    //    }
-
-    //    /*
-    //    foreach ()
-    //    if (dialogueSO.nextSceneName[] != "")
-    //    {
-    //        SceneManager.LoadScene(dialogueSO.nextSceneName);
-    //    }*/
-    //}
-
+    public void PlayVFX()
+    {
+        VFXSource.clip = VFXcurrent;
+        VFXSource.PlayOneShot(VFXcurrent);
+    }
 }
 
 

@@ -10,102 +10,98 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fef2eaf04299b245a9777fd5e174b2c, type: 3}
-  m_Name: Segment2
+  m_Name: 3.1
   m_EditorClassIdentifier: 
   dialogueLines:
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: Welcome back to Speak of the Devil, the talk show that brings your
-      most burning questions to the world's most famous cryptids!
+    sentence: As I've said before, we're all here to figure out once and for all
+      if what we've heard about you is real or not.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: Today's guest is the illustrious Babadook!
+    sentence: The internet had lots of questions for you. I would once again like
+      to thank everyone who sent us suggestions!
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: 'Thank you once again for accepting to be our first guest. '
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
-    charaName: Robin Campbell
-    typing: {fileID: 0}
-    audienceFeedback: {fileID: 0}
-    sentence: We learned some new things about your upbringing and whatnot in the
-      last segment.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
-    charaName: Robin Campbell
-    typing: {fileID: 0}
-    audienceFeedback: {fileID: 0}
-    sentence: It's not always nice to remember our past, but we appreciate how willing
-      you were to share it with us.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
-    charaName: Robin Campbell
-    typing: {fileID: 0}
-    audienceFeedback: {fileID: 0}
-    sentence: Let's show some love to our guest!
+    sentence: From what we've seen so far, it seems like you're very... adamant on
+      not being the bad guy the media portrayed you as.
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: Thank you for giving me a chance to tell my story.
-  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    sentence: That would be correct.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Do you think people will take your word for it?
+  - sprite: {fileID: 21300000, guid: e966d286c58028b4f89d794a3d577676, type: 3}
     charaName: The Babadook
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: Even if it is not fun to remember, I appreciate having people hear
-      to what I have to say for once.
+    sentence: What do you mean?
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: Of course! We're just happy to hear from you.
+    sentence: There's just so much evidence out there about your past, Mr Babadook.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: Things can get quite emotional in talk shows like this, as we all know.
+    sentence: Really, it'd take just a single search online to see everything people
+      have said about you.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: But wouldn't you say it's nice to have a heart to heart like this with
-      one of the most popular legends of our generation?
-  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    sentence: It's just weird how we never see anything positive, you know?
+  - sprite: {fileID: 21300000, guid: e966d286c58028b4f89d794a3d577676, type: 3}
     charaName: The Babadook
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: 'It is a nice change of pace. '
+    sentence: Are you saying you do not believe what I have to say?
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: Right?
+    sentence: Not at all! I guess I'm just asking if you really think it's possible
+      to change your image like that.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: What do we say, Mr Babadook? Ready to continue our conversation?
-  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    sentence: You're known as something that kills and brings misfortune.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Do you really think people will believe you had a change of heart or
+      something like that?
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Just think about it.
+  - sprite: {fileID: 21300000, guid: e966d286c58028b4f89d794a3d577676, type: 3}
     charaName: The Babadook
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: I believe so...
-  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
-    charaName: The Babadook
-    typing: {fileID: 0}
-    audienceFeedback: {fileID: 0}
-    sentence: I am still a bit nervous, but it will all be worth it in the end.
+    sentence: ...
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: Absolutely!
+    sentence: This is just a conversation, Mr Babadook. Don't take things too seriously!
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
-    sentence: Now... why don't we talk a bit about your image as a public figure?
-  canChoose: 1
+    sentence: I'm just speaking for the audience here.
+  canChoose: 0

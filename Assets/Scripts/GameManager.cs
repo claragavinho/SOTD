@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour
     public int currentDiscomfort;
 
     public Discomfortmeter discomfortmeter;
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject); //will keep the object on the scene when the scene loads
+    }
 
     private void Start()
     {
@@ -16,13 +20,13 @@ public class GameManager : MonoBehaviour
     }
     public void MakeUncomfortable()
     {
-        currentDiscomfort--;
+        currentDiscomfort++;
 
         discomfortmeter.SetDiscomfort(currentDiscomfort);
     }
     public void MakeComfortable()
     {
-        currentDiscomfort++;
+        currentDiscomfort--;
         discomfortmeter.SetDiscomfort(currentDiscomfort);
     }
 }

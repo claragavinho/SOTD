@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fef2eaf04299b245a9777fd5e174b2c, type: 3}
+  m_Name: 3.2
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: We know what people say about you on the internet, about how you bring
+      despair upon your victims and whatnot.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: But we also know that we can't trust everything we read online!
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Is that a common conception you humans have? I had no idea.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: 'Yes, we often see lots of sensationalist pieces of news around the
+      internet. '
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: For example, people say the earth isn't round.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Can you believe that?
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Well, that is obviously a lie.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Right?
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Some of them even say french people exist! Can you believe that?
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: ... Well-
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Anyways, let's go back to what really matters here.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: We've heard so much negative information about you, so why don't you
+      tell us something positive?
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: For example, tell us a good deed you've done in the past or recently.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Ever since I was forced to start coexisting with humans, I have noticed
+      how innocent children are.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: And how, sometimes, adult humans do not take care of the little ones
+      like they deserve.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: So I have taken it upon myself to care for them.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: I make sure they are not in danger, try to avoid any situations that
+      might put them in that position.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: I even learned how to cook just to give them something to eat.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: That's amazing, Mr Babadook! It's like you're their caretaker.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: See, more people should know about this.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Internet, do your thing and let everyone know that The Babadook is
+      a respectful creature!
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Yes, I also respect women. I would call myself a feminist.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Wow! You're better than so many people out there.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: I'm sure many women would feel more comfortable finding you in the
+      middle of the night!
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: I am honored.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: 'Thank you once again for giving us such an insight on your personal
+      life. '
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Please, show us some of the things you've cooked in the past!
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Please, show us some of the things you've cooked in the past!
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: I have nothing here with me, but I would love to come back here eventually
+      and show it to you and everyone in the audience.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Sounds like a plan!
+  canChoose: 0
