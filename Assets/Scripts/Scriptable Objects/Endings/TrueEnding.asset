@@ -12,5 +12,166 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fef2eaf04299b245a9777fd5e174b2c, type: 3}
   m_Name: TrueEnding
   m_EditorClassIdentifier: 
-  dialogueLines: []
+  dialogueLines:
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Do you want me to be honest, Mr Campbell?
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Always!
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: I know what you truly mean when you ask me those questions.
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: I appreciate the subtility, but I need to come through about this.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: What do you mean?
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: I avoid talking about my sexuality because I am well aware humans are
+      fast to judge.
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: But I am tired of hiding the truth and stepping on eggshells!
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: You wanted the truth?
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: 'This is the truth: I am gay!'
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: What a shocking turn of events!
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: I am not ashamed of myself, nor am I scared of what the humans will
+      do when they find out.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: So those rumours about you and Mr Pennywise...?
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: ... They're all true!
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: We met a while ago and fell in love. Is that so wrong?
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Is it bad that he makes me happy?
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Not at all!
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Thank you for sharing this with us.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: I mean it and I promise we wouldn't dare to judge you because of who
+      you love.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: In fact, your courage is inspiring!
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Inspiring?
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Don't worry, Mr Babadook. I have something to announce!
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Your host, Robin Campbell... is also gay!
+  - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Mr Campbell!
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: I understand you, Mr Babadook!
+  - sprite: {fileID: 21300000, guid: 65fbcf8334155d74f944450b34b5d1c2, type: 3}
+    charaName: Narrator
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: The host and The Babadook are hugging. The audience is confused, but
+      clapping nonetheless.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Thank you everyone for tuning in tonight!
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: This was an emotional show and I would once again like to thank Mr
+      Babadook for being our guest.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: See all of you next week!
+  - sprite: {fileID: 21300000, guid: 65fbcf8334155d74f944450b34b5d1c2, type: 3}
+    charaName: Narrator
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Nothing remarkable happened, but the LGBTQIA+ community started supporting
+      the show and The Babadook.
+  - sprite: {fileID: 21300000, guid: 65fbcf8334155d74f944450b34b5d1c2, type: 3}
+    charaName: Narrator
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: The Babadook married Pennywise.
+  - sprite: {fileID: 21300000, guid: 65fbcf8334155d74f944450b34b5d1c2, type: 3}
+    charaName: Narrator
+    typing: {fileID: 0}
+    audienceFeedback: {fileID: 0}
+    sentence: Love is love!
   canChoose: 0

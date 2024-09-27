@@ -15,115 +15,115 @@ MonoBehaviour:
   dialogueLines:
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Mr Babadook, this is our last chance to be honest here.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: 'And I would like to make it count. '
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Do you promise to give us your honesty for the next questions?
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: I will do my best. I would hate to disappoint the audience.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: You truly are a gentleman!
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Alright. Well, do you have any hobbies?
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: ... What?
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: I asked if you have any hobbies!
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Oh, sorry, I was caught off guard. I thought your question would be
       more invasive than this.
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: I do have hobbies, yes.
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: I like to read, something that I picked up from my mother.
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: I also bake sometimes; humans seem to appreciate the pies I make, even
       though they do not know I was the one who made them.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Those are sweet hobbies. I'm sure everyone here is pleasantly surprised.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: They all seem to be indoors hobbies, however. Do you have any hobbies
       that require you to go outside?
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Yes, I like to meet with friends.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Is that so? Would one of those friends happen to be Mr Pennywise?
   - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Of course, we are very close friends.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Very close, you say?
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Would you say it goes beyond friendship?
   - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: ...
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: No need to get shy! This is a judgement free zone, we're all just curious.
   - sprite: {fileID: 21300000, guid: 58f67b3cb04b4084fa62242eaa0872fd, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: I don't know if I want to talk about this...
   canChoose: 0

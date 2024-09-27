@@ -15,57 +15,155 @@ MonoBehaviour:
   dialogueLines:
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: 'Let''s start with something that I assume most of us would like to
       know, then. '
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: How did you get here?
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: Uh... I can travel through the shadows, so -
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: Sorry, that's on me! What I meant was, how did you get your status
       as a cryptid?
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: Oh, I apologize for the misunderstanding.
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: My mother used to read this bedtime story for me when I was younger.
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: She thought I would get over it eventually, as I grew up, but I never
       did.
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: Something in that book was too important to me and I could not find
       the will to let go.
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: 'I got so obsessed with the book that, one day, I found myself being
       absorbed by it. '
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: A family got ahold of that book, somehow. It was just a mother and
       her son.
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: 'So I decided to treat them like roommates, but they weren''t very
       cooperative. '
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: Sometimes I tried telling the mom about how her son was playing games
       on his phone instead of falling asleep, but she started screaming as soon as
       I showed myself.
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: That is when I realized humans are too dramatic for their own good.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: I'm sure no one here expected such a heartfelt story. Thanks for sharing
       that with us, it can't have been easy to deal with all of that.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Was that how you became a cryptid?
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: It was the beginning of my journey, but I only got popular years later.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: I have heard about something called "the internet" from some of the
+      people I lived with.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Apparently, that is where my roommates complained about me, sharing
+      the tales of our coexistence.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: 'Stories about a tall creature that lurked in the dark. '
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: That can't have been easy.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: No, it wasn't.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Things got worse when they released a movie with my name on it as well.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: The first two humans I lived with wanted to tell their own side of
+      the story.
+  - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
+    charaName: The Babadook
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Humans do not know what privacy means.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: That we don't, my dear guest.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Thank you once again for being so open about this.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
+    sentence: Maybe we can talk more about this when we come back from commercials.
+  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+    charaName: Robin Campbell
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
+    audienceFeedback: {fileID: 0}
     sentence: We'll be back after the break!
   canChoose: 0

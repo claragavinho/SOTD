@@ -15,118 +15,118 @@ MonoBehaviour:
   dialogueLines:
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Good evening, everyone! This is your host Robin Campbell speaking and
       you'll be in my care for the next hour.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Don't worry, don't worry, I promise you're in good hands!
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: '... well, as good as possible, considering the spooky things we''re
       doing here. '
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: 'But I''m sure you''re all as excited as I am to meet our first guest. '
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: 'Welcome to Speak of the Devil, the talk show where we interview the
       internet''s most beloved cryptids and urban legends! '
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: We're here to learn more about their lives while trying to answer your
       doubts about their existence.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: First of all, thanks to everyone who sent us their questions through
       our website and email.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: As your host, I'll do my best to try and go through as much of them
       as possible!
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: 'Now, without further ado, show your warm welcome to our first guest:'
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: The Babadook!
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: ...
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Welcome, welcome! I can't put in words how great it is to have you
       here, Mr Babadook!
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: '*Growls*'
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: '*In an Australian accent* My sincere apologies mate, I''m not used
       to talking. '
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: 'It''s great to be here. '
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Thank you for having me, I know most humans don't feel comfortable
       with my presence.
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Now, who wouldn't be comfortable with something as polite as you? You
       humble yourself, Mr Babadook!
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Shall we get to the questions, then? I know all of these people here
       are excited to know more about you.
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: 'Sure, I will be more than happy to answer your inquiries. '
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: 'Perfect! '
   - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
     charaName: Robin Campbell
-    typing: {fileID: 0}
+    typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Well, for the first question...
   canChoose: 1
