@@ -5,26 +5,42 @@ using UnityEngine;
 public class FinalScene : MonoBehaviour
 {
     [SerializeField]
-    Dialogue[] _endingDialogue;
+    GameObject _goodEnding;
 
-    public GameManager gameMngr;
+    [SerializeField]
+    GameObject _neutralEnding;
 
+    [SerializeField]
+    GameObject _badEnding;
+
+    [SerializeField]
+    GameManager _gameMngr;
+
+    private void Awake()
+    {
+        _goodEnding.SetActive(false);
+        _neutralEnding.SetActive(false);
+        _badEnding.SetActive(false);
+    }
     // Start is called before the first frame update
     void Start()
     {
-        
+        ChangeEndings();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ChangeEndings()
     {
-        
-    }
-    public void ChangeEndings(int endingRef)
-    {
-        if (gameMngr.currentDiscomfort == 0)
+        if (_gameMngr.currentDiscomfort == 0)
         {
-
+            _goodEnding.SetActive(true);
+        }
+        else if (_gameMngr.currentDiscomfort == 6)
+        {
+            _badEnding.SetActive(true);
+        }
+        else 
+        { 
+            _neutralEnding.SetActive(true);
         }
     }
 }
