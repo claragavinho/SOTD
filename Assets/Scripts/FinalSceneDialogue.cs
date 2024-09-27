@@ -75,11 +75,20 @@ public class FinalSceneDialogue : MonoBehaviour
 
     public void DisplayNextSentence()
     {
+        DialogueInfo currentLine = _lines.Dequeue();
+        nameText.text = currentLine.charaName;
+        charaSprite.GetComponent<Image>().sprite = currentLine.sprite;
+        typingCurrent = currentLine.typing;
+        VFXcurrent = currentLine.audienceFeedback;
+
+        while (_isTyping == true)
+        {
+            PlayTyping();
+        }
         if (_isTyping == true)
         {
             _completeCurrentSentence = true;
             _isTyping = false;
-            PlayTyping();
             return;
         }
         else
@@ -91,12 +100,6 @@ public class FinalSceneDialogue : MonoBehaviour
             SceneManager.LoadScene(_nextScene);
             return;
         }
-
-        DialogueInfo currentLine = _lines.Dequeue();
-        nameText.text = currentLine.charaName;
-        charaSprite.GetComponent<Image>().sprite = currentLine.sprite;
-        typingCurrent = currentLine.typing;
-        VFXcurrent = currentLine.audienceFeedback;
 
 
         StopAllCoroutines();
@@ -113,6 +116,7 @@ public class FinalSceneDialogue : MonoBehaviour
         int sentenceCharLength = fullSentence.Length;
         _isTyping = true;
         _completeCurrentSentence = false;
+
 
         while (dialogueText.maxVisibleCharacters < sentenceCharLength)
         {

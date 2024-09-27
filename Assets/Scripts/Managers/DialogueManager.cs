@@ -99,11 +99,14 @@ public class DialogueManager : MonoBehaviour
     
     public void DisplayNextSentence()
     {
+        while (_isTyping == true)
+        {
+            PlayTyping(typingCurrent);
+        }
         if (_isTyping == true) 
         {
             _completeCurrentSentence = true;
             _isTyping=false;
-            PlayTyping();
             return;
         }
         else 
@@ -162,15 +165,16 @@ public class DialogueManager : MonoBehaviour
         _isTyping = false;
         _completeCurrentSentence = false;
     }
-    public void PlayTyping()
+    public void PlayTyping(AudioClip clip)
     {
-        typingSource.clip = typingCurrent;
+        typingSource.clip = clip;
         typingSource.Play();
+        //typingSource.PlayOneShot(typingCurrent);
     }
     public void PlayVFX()
     {
-        VFXSource.clip = VFXcurrent;
-        VFXSource.PlayOneShot(VFXcurrent);
+        //VFXSource.clip = VFXcurrent;
+        //VFXSource.PlayOneShot(VFXcurrent);
     }
 }
 
