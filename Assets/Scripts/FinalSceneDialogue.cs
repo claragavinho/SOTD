@@ -84,7 +84,7 @@ public class FinalSceneDialogue : MonoBehaviour
         }
         else
         {
-            PlayVFX();
+            PlayVFX(VFXcurrent);
         }
         if (_lines.Count == 0)
         {
@@ -134,9 +134,9 @@ public class FinalSceneDialogue : MonoBehaviour
         typingSource.clip = typingCurrent;
         typingSource.Play();
     }
-    public void PlayVFX()
+    public void PlayVFX(AudioClip clip)
     {
         VFXSource.clip = VFXcurrent;
-        VFXSource.PlayOneShot(VFXcurrent);
+        VFXSource.PlayOneShot(clip);
     }
 }

@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public Discomfortmeter discomfortmeter;
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject); //will keep the object on the scene when the scene loads
+        DontDestroyOnLoad(this); //will keep the object on the scene when the scene loads
     }
 
     private void Start()
