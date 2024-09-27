@@ -6,6 +6,7 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 using Unity.VisualScripting;
 using UnityEngine.SceneManagement;
+using System;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -99,10 +100,6 @@ public class DialogueManager : MonoBehaviour
     
     public void DisplayNextSentence()
     {
-        while (_isTyping == true)
-        {
-            PlayTyping(typingCurrent);
-        }
         if (_isTyping == true) 
         {
             _completeCurrentSentence = true;
@@ -149,9 +146,12 @@ public class DialogueManager : MonoBehaviour
         int sentenceCharLength = fullSentence.Length;
         _isTyping = true;
         _completeCurrentSentence = false;
+        //PlayTyping(typingCurrent);
 
         while (dialogueText.maxVisibleCharacters < sentenceCharLength) 
-        { 
+        {
+            PlayTyping(typingCurrent);
+
             if (_completeCurrentSentence)
             {
                 dialogueText.maxVisibleCharacters = sentenceCharLength;
@@ -169,13 +169,17 @@ public class DialogueManager : MonoBehaviour
     {
         typingSource.clip = clip;
         typingSource.Play();
+
+        //typingSource.loop = true;
         //typingSource.PlayOneShot(typingCurrent);
     }
+
     public void PlayVFX()
     {
         //VFXSource.clip = VFXcurrent;
         //VFXSource.PlayOneShot(VFXcurrent);
     }
+
 }
 
 
