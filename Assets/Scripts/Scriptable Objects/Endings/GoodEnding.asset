@@ -13,18 +13,18 @@ MonoBehaviour:
   m_Name: GoodEnding
   m_EditorClassIdentifier: 
   dialogueLines:
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Mr Babadook, we've made lots of pleasantly shocking discoveries about
       you tonight.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: It was truly an honor to hear your life story told directly from you.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -63,12 +63,12 @@ MonoBehaviour:
     audienceFeedback: {fileID: 0}
     sentence: But you gave us a bit of hope that maybe, just maybe, we can coexist
       peacefully in the future.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: I'm glad to hear that!
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -90,18 +90,18 @@ MonoBehaviour:
     audienceFeedback: {fileID: 0}
     sentence: I noticed part of the audience seems to have left the auditory. I wonder
       if they didn't like what I had to say.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: I'm sure they just had to go home early! From now on, our audience
       will know what to expect from this show.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Well, thank you again for accepting our invitation, Mr Babadook!
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -111,29 +111,29 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: The pleasure is all mine!
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Thank you everyone for tuning in tonight!
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: This was an emotional show and I would once again like to thank Mr
       Babadook for being our guest.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: See all of you next week!
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Narrator
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}
     sentence: 'The guest''s life improved significally with this interview, but the
       audience numbers went down. '
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Narrator
     typing: {fileID: 0}
     audienceFeedback: {fileID: 0}

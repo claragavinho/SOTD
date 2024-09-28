@@ -18,7 +18,7 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Do you want me to be honest, Mr Campbell?
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -33,7 +33,7 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: I appreciate the subtility, but I need to come through about this.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -59,7 +59,7 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: 'This is the truth: I am gay!'
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -70,7 +70,7 @@ MonoBehaviour:
     audienceFeedback: {fileID: 0}
     sentence: I am not ashamed of myself, nor am I scared of what the humans will
       do when they find out.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -90,23 +90,23 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Is it bad that he makes me happy?
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Not at all!
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Thank you for sharing this with us.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: I mean it and I promise we wouldn't dare to judge you because of who
       you love.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -116,12 +116,12 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Inspiring?
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Don't worry, Mr Babadook. I have something to announce!
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -131,7 +131,7 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Mr Campbell!
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -142,18 +142,18 @@ MonoBehaviour:
     audienceFeedback: {fileID: 0}
     sentence: The host and The Babadook are hugging. The audience is confused, but
       clapping nonetheless.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Thank you everyone for tuning in tonight!
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: This was an emotional show and I would once again like to thank Mr
       Babadook for being our guest.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}

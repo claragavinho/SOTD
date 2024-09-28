@@ -18,7 +18,7 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: May I say something, Mr Campbell?
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -39,7 +39,7 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: This is what I assumed you wanted to do, Mr Campbell.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -59,7 +59,7 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: And I'm tired of that!
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -69,7 +69,7 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: You wanted a monster? I'll give you a monster!
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}

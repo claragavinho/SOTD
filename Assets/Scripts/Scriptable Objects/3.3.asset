@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: 3.3
   m_EditorClassIdentifier: 
   dialogueLines:
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Mr Babadook, this is our last chance to be honest here.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: 'And I would like to make it count. '
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -33,12 +33,12 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: I will do my best. I would hate to disappoint the audience.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: You truly are a gentleman!
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -48,7 +48,7 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: ... What?
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -75,12 +75,12 @@ MonoBehaviour:
     audienceFeedback: {fileID: 0}
     sentence: I also bake sometimes; humans seem to appreciate the pies I make, even
       though they do not know I was the one who made them.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Those are sweet hobbies. I'm sure everyone here is pleasantly surprised.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -91,7 +91,7 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Yes, I like to meet with friends.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -101,12 +101,12 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Of course, we are very close friends.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Very close, you say?
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -116,7 +116,7 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: ...
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}

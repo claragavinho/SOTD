@@ -13,23 +13,23 @@ MonoBehaviour:
   m_Name: 2.2
   m_EditorClassIdentifier: 
   dialogueLines:
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: We're well aware of the image the media built for you as a cryptid.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: However, I'm convinced there is more to it than what we see.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: You wouldn't be so concerned about what people say about you otherwise,
       and I say this as a compliment.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -39,12 +39,12 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Yes, Mr Campbell. That is my goal.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: And it's something very honorable. Remarkable, really!
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -54,12 +54,12 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Thank you, that means a lot.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: We'll do whatever we can to show your true colors in today's show.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -69,7 +69,7 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: What do you mean?
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -102,7 +102,7 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: So I go out during the night to avoid any sunburns.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -126,12 +126,12 @@ MonoBehaviour:
     audienceFeedback: {fileID: 0}
     sentence: Maybe you should seek psychological help before blaming everything
       on me.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Well, of course! It's not like you can make suffer with mental illnesses.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
@@ -147,12 +147,12 @@ MonoBehaviour:
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: I would be more than happy to clear up any more doubts in the future.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
     sentence: Perfect! Now, I think it's time for a break.
-  - sprite: {fileID: 21300000, guid: 4a6451d35b4930946a58aecd906b4546, type: 3}
+  - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
     audienceFeedback: {fileID: 0}
