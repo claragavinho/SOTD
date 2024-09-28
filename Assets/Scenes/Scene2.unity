@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 27671118}
   - component: {fileID: 27671117}
   - component: {fileID: 27671120}
-  - component: {fileID: 27671119}
   m_Layer: 5
   m_Name: Bar
   m_TagString: Untagged
@@ -200,49 +199,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 27671115}
   m_CullTransparentMesh: 1
---- !u!114 &27671119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 27671115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb425ecdb53b45439852d4ecf5caf3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slider: {fileID: 27671120}
-  gradient:
-    serializedVersion: 2
-    key0: {r: 1, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 0.8613138, b: 0, a: 1}
-    key2: {r: 0.0016849041, g: 1, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 32768
-    ctime2: 65535
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 3
-    m_NumAlphaKeys: 2
 --- !u!114 &27671120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1747,8 +1703,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 845466973}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 906223747}
+        m_TargetAssemblyTypeName: DiscomfortmeterNew, Assembly-CSharp
         m_MethodName: MakeUncomfortable
         m_Mode: 1
         m_Arguments:
@@ -2157,17 +2113,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &845466973 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1420103497466075682, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-  m_PrefabInstance: {fileID: 5222576882008074868}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 940281ffdaa4d844785762b9c40ac08b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &906223745
 GameObject:
   m_ObjectHideFlags: 0
@@ -2177,6 +2122,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 906223746}
+  - component: {fileID: 906223747}
   m_Layer: 5
   m_Name: Discomfortmeter
   m_TagString: Untagged
@@ -2206,6 +2152,50 @@ RectTransform:
   m_AnchoredPosition: {x: -20, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &906223747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906223745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e765a3955ea484bbfc8bb589ea8b49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 27671120}
+  gradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 0, b: 0, a: 1}
+    key1: {r: 1, g: 0.8613138, b: 0, a: 1}
+    key2: {r: 0.0016849041, g: 1, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 32768
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  maxComfort: 6
 --- !u!1 &938235057
 GameObject:
   m_ObjectHideFlags: 0
@@ -2751,8 +2741,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 845466973}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 906223747}
+        m_TargetAssemblyTypeName: DiscomfortmeterNew, Assembly-CSharp
         m_MethodName: MakeComfortable
         m_Mode: 1
         m_Arguments:
@@ -3072,7 +3062,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 890025497500831616}
-  - {fileID: 5222576882008074869}
   - {fileID: 1956057124}
   - {fileID: 497400555}
   m_Father: {fileID: 0}
@@ -3833,72 +3822,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4688695976785108812, guid: 484c95c00bd8aa440ac928628216d786, type: 3}
   m_PrefabInstance: {fileID: 890025497500831615}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &5222576882008074868
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1527413614}
-    m_Modifications:
-    - target: {fileID: 316608055119837446, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-      propertyPath: m_Name
-      value: GameManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 1420103497466075682, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-      propertyPath: discomfortmeter
-      value: 
-      objectReference: {fileID: 27671119}
-    - target: {fileID: 6377458926328863220, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 293.6277
-      objectReference: {fileID: 0}
-    - target: {fileID: 6377458926328863220, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 10.617554
-      objectReference: {fileID: 0}
-    - target: {fileID: 6377458926328863220, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 4.6143236
-      objectReference: {fileID: 0}
-    - target: {fileID: 6377458926328863220, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6377458926328863220, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6377458926328863220, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6377458926328863220, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6377458926328863220, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6377458926328863220, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6377458926328863220, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
---- !u!4 &5222576882008074869 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6377458926328863220, guid: 4cc41b7006c0b2649ac9dd0fd34aa76b, type: 3}
-  m_PrefabInstance: {fileID: 5222576882008074868}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
