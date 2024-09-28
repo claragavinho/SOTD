@@ -8,11 +8,6 @@ public class Discomfortmeter : MonoBehaviour
     public Slider slider;
     public Gradient gradient;
 
-    private void Awake()
-    {
-        DontDestroyOnLoad(gameObject); //will keep the object on the scene when the scene loads
-    }
-
     public void SetMaxDiscomfort(int discomfort)
     {
         slider.maxValue = discomfort;
