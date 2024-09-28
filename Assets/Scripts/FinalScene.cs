@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices;
 using UnityEngine;
 
 public class FinalScene : MonoBehaviour
@@ -13,8 +14,7 @@ public class FinalScene : MonoBehaviour
     [SerializeField]
     GameObject _badEnding;
 
-    [SerializeField]
-    GameManager _gameMngr;
+    private DiscomfortHandler _discomfortmeter;
 
     private void Awake()
     {
@@ -25,16 +25,17 @@ public class FinalScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _discomfortmeter = FindObjectOfType<DiscomfortHandler>();
         ChangeEndings();
     }
 
     public void ChangeEndings()
     {
-        if (_gameMngr.currentDiscomfort == 0)
+        if (_discomfortmeter.discomfortLevels == 0)
         {
             _goodEnding.SetActive(true);
         }
-        else if (_gameMngr.currentDiscomfort == 6)
+        else if (_discomfortmeter.discomfortLevels == 6)
         {
             _badEnding.SetActive(true);
         }

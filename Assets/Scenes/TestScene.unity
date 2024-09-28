@@ -4632,7 +4632,7 @@ PrefabInstance:
       objectReference: {fileID: 1503301837}
     - target: {fileID: 2865663032510143406, guid: 484c95c00bd8aa440ac928628216d786, type: 3}
       propertyPath: _nextScene
-      value: Scene1
+      value: FinalScene
       objectReference: {fileID: 0}
     - target: {fileID: 2865663032510143406, guid: 484c95c00bd8aa440ac928628216d786, type: 3}
       propertyPath: dialogueSO
