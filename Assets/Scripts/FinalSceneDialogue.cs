@@ -81,10 +81,6 @@ public class FinalSceneDialogue : MonoBehaviour
         typingCurrent = currentLine.typing;
         VFXcurrent = currentLine.audienceFeedback;
 
-        while (_isTyping == true)
-        {
-            PlayTyping();
-        }
         if (_isTyping == true)
         {
             _completeCurrentSentence = true;
@@ -120,6 +116,8 @@ public class FinalSceneDialogue : MonoBehaviour
 
         while (dialogueText.maxVisibleCharacters < sentenceCharLength)
         {
+            PlayTyping(typingCurrent);
+
             if (_completeCurrentSentence)
             {
                 dialogueText.maxVisibleCharacters = sentenceCharLength;
@@ -133,9 +131,9 @@ public class FinalSceneDialogue : MonoBehaviour
         _isTyping = false;
         _completeCurrentSentence = false;
     }
-    public void PlayTyping()
+    public void PlayTyping(AudioClip clip)
     {
-        typingSource.clip = typingCurrent;
+        typingSource.clip = clip;
         typingSource.Play();
     }
     public void PlayVFX(AudioClip clip)
