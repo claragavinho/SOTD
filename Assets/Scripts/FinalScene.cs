@@ -31,11 +31,11 @@ public class FinalScene : MonoBehaviour
 
     public void ChangeEndings()
     {
-        if (_discomfortmeter.discomfortLevels == 0)
+        if (_discomfortmeter.discomfortLevels <=2)
         {
             _goodEnding.SetActive(true);
         }
-        else if (_discomfortmeter.discomfortLevels == 6)
+        else if (_discomfortmeter.discomfortLevels >= 5)
         {
             _badEnding.SetActive(true);
         }

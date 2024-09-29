@@ -27,7 +27,7 @@ MonoBehaviour:
   - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
     typing: {fileID: 8300000, guid: a08c9f0aa3e43124abdefd0dab1a8905, type: 3}
-    audienceFeedback: {fileID: 0}
+    audienceFeedback: {fileID: 8300000, guid: 3eaf7a5ed4ef3a946950a12c36fbfada, type: 3}
     sentence: This is our last part of today's show!
   - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell
@@ -97,7 +97,7 @@ MonoBehaviour:
   - sprite: {fileID: 21300000, guid: 707b0168ce1842c43905669208df3157, type: 3}
     charaName: The Babadook
     typing: {fileID: 8300000, guid: 7ae6b11873a4082419161a2b0dbfc4cd, type: 3}
-    audienceFeedback: {fileID: 0}
+    audienceFeedback: {fileID: 8300000, guid: 5593d1db66eb74c4da1a18f9afaa6a47, type: 3}
     sentence: I hope only the good parts, of course.
   - sprite: {fileID: 21300000, guid: 77ceab7874401ad499752d6a60765d74, type: 3}
     charaName: Robin Campbell

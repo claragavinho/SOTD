@@ -87,10 +87,6 @@ public class FinalSceneDialogue : MonoBehaviour
             _isTyping = false;
             return;
         }
-        else
-        {
-            PlayVFX(VFXcurrent);
-        }
         if (_lines.Count == 0)
         {
             SceneManager.LoadScene(_nextScene);
@@ -129,6 +125,8 @@ public class FinalSceneDialogue : MonoBehaviour
         }
 
         _isTyping = false;
+        if (_isTyping == false)
+            StartCoroutine(StartVFX(VFXcurrent));
         _completeCurrentSentence = false;
     }
     public void PlayTyping(AudioClip clip)
@@ -136,9 +134,10 @@ public class FinalSceneDialogue : MonoBehaviour
         typingSource.clip = clip;
         typingSource.Play();
     }
-    public void PlayVFX(AudioClip clip)
+    private IEnumerator StartVFX(AudioClip clip)
     {
-        VFXSource.clip = VFXcurrent;
+        yield return new WaitForSeconds(1);
+        VFXSource.clip = clip;
         VFXSource.PlayOneShot(clip);
     }
 }

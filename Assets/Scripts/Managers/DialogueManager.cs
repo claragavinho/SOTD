@@ -106,10 +106,6 @@ public class DialogueManager : MonoBehaviour
             _isTyping=false;
             return;
         }
-        else 
-        { 
-            PlayVFX();
-        }
         if (_lines.Count == 0 && _canSwitchScenes == false) 
         {
             _choiceCanvas.enabled = true;
@@ -163,6 +159,8 @@ public class DialogueManager : MonoBehaviour
         }
 
         _isTyping = false;
+        if (_isTyping == false)
+            StartCoroutine(StartVFX(VFXcurrent));
         _completeCurrentSentence = false;
     }
     public void PlayTyping(AudioClip clip)
@@ -173,11 +171,11 @@ public class DialogueManager : MonoBehaviour
         //typingSource.loop = true;
         //typingSource.PlayOneShot(typingCurrent);
     }
-
-    public void PlayVFX()
+    private IEnumerator StartVFX(AudioClip clip)
     {
-        //VFXSource.clip = VFXcurrent;
-        //VFXSource.PlayOneShot(VFXcurrent);
+        yield return new WaitForSeconds(1);
+        VFXSource.clip = clip;
+        VFXSource.PlayOneShot(clip);
     }
 
 }
