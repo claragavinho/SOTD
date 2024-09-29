@@ -41,11 +41,11 @@ public class FinalSceneDialogue : MonoBehaviour
 
     private AudioClip typingCurrent;
     private AudioClip VFXcurrent;
-
     private void Awake()
     {
         _lines = new Queue<DialogueInfo>();
     }
+
     // Start is called before the first frame update
     void Start()
     {

@@ -12,6 +12,7 @@ public class AudioManager : MonoBehaviour
     {
         musicSource.clip = bgm;
         musicSource.Play();
+        musicSource.loop = true;
     }
     //public void PlayVFX(AudioClip clip)
     //{
