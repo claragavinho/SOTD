@@ -1242,7 +1242,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.22
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1880,6 +1880,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 635809302136958334, guid: baa76749602003e4fadc945b79cc6fe8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 900353276}
+    - target: {fileID: 635809302136958334, guid: baa76749602003e4fadc945b79cc6fe8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 2337035813845719643, guid: baa76749602003e4fadc945b79cc6fe8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 900353276}
+    - target: {fileID: 2337035813845719643, guid: baa76749602003e4fadc945b79cc6fe8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResumeGame
+      objectReference: {fileID: 0}
     - target: {fileID: 5950850545503451187, guid: baa76749602003e4fadc945b79cc6fe8, type: 3}
       propertyPath: m_Name
       value: UICanvas
@@ -1887,6 +1903,14 @@ PrefabInstance:
     - target: {fileID: 5950850545503451187, guid: baa76749602003e4fadc945b79cc6fe8, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7938987493559251837, guid: baa76749602003e4fadc945b79cc6fe8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 900353276}
+    - target: {fileID: 7938987493559251837, guid: baa76749602003e4fadc945b79cc6fe8, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitGame
       objectReference: {fileID: 0}
     - target: {fileID: 7999766989754298113, guid: baa76749602003e4fadc945b79cc6fe8, type: 3}
       propertyPath: m_Pivot.x
@@ -2146,6 +2170,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3838653653221264423, guid: c569e811b37a1784da91f3dd8737cc82, type: 3}
   m_PrefabInstance: {fileID: 900353274}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &900353276 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 122434678875559637, guid: c569e811b37a1784da91f3dd8737cc82, type: 3}
+  m_PrefabInstance: {fileID: 900353274}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14d17d317bda9d64986160bfa509a445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &906223745
 GameObject:
   m_ObjectHideFlags: 0
@@ -3138,7 +3173,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.22
   m_Pitch: 1
   Loop: 0
   Mute: 0
