@@ -58,7 +58,7 @@ public class FinalScene : MonoBehaviour
         else 
         { 
             _neutralEnding.SetActive(true);
-                _trueButton.SetActive(true);
+            _trueButton.SetActive(true);
         }
     }
 }
